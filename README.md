@@ -7,7 +7,7 @@ The input data to the PID controller is the cross-track error (CTE), current veh
 Additionally, the throttle (i.e., brake and acceleration) input the car has been manipulated based on the requested steering angle. The underlying aim is to recognize that high steering angles indicate a curve, and therefore, the vehicle must slow down in order to remain on the track. 
 Of course, a second PID controller to modulate the throttle inputs would be possible, but has not been implemented yet.
 
-The PID controller was tuned using the [coordinate ascent or the "Twiddle"](https://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckcLEgZDb3Vyc2UiBWNzMzczDAsSCUNvdXJzZVJldiIHZmViMjAxMgwLEgRVbml0GLG0EwwLEgxBdHRhY2hlZEZpbGUY4ZgXDA) algorithm. A small lecture on the "Twiddle" algorithm is linked below.
+<br>The PID controller was tuned using the [coordinate ascent or the "Twiddle"](https://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckcLEgZDb3Vyc2UiBWNzMzczDAsSCUNvdXJzZVJldiIHZmViMjAxMgwLEgRVbml0GLG0EwwLEgxBdHRhY2hlZEZpbGUY4ZgXDA) algorithm. Video lecture linked here.</br>
 [![Twiddle Video Lecture](https://img.youtube.com/vi/2uQ2BSzDvXs/0.jpg)](https://www.youtube.com/watch?v=2uQ2BSzDvXs "Twiddle Video Lecture")
 
 ### How it Looks
